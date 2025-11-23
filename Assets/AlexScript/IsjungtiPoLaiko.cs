@@ -5,7 +5,7 @@ public class IsjungtiPoLaiko : MonoBehaviour
 {
     void OnEnable()
     {
-        StartCoroutine(IsjungtiPoSekundziu(10f));
+        StartCoroutine(IsjungtiPoSekundziu(15f));
     }
 
     IEnumerator IsjungtiPoSekundziu(float sekundes)
